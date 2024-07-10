@@ -1,0 +1,8 @@
+.about-bg {
+    background-color: rgb(34, 40, 49);
+}
+
+.about-bg h1,
+p {
+    color: white;
+}
