@@ -1,8 +1,9 @@
 .footer-bg {
     padding: 16px;
-    background-color: rgb(34, 40, 49);
+    background-color:rgb(120 123 135);
   }
 
   footer a{
     color: white;
+    font-weight: lighter;
   }

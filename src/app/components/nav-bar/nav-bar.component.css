@@ -1,10 +1,12 @@
 .navbar, .container-fluid{
   padding: 16px;
-  background-color: rgb(34, 40, 49);
+  background-color: rgb(120 123 135)
 }
 
 .navbar a {
   color: white;
+  font-size:25px;
+  font-weight: lighter;
 }
 
 .navbar-toggler {

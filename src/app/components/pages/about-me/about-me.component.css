@@ -1,8 +1,25 @@
-.about-bg {
-    background-color: rgb(34, 40, 49);
+.container-about {
+    background-color: rgb(233, 237, 246);
+    margin-top: 50px;
 }
 
 .about-bg h1,
 p {
-    color: white;
+   color: #35383b;
 }
+
+img{
+background-color: red;
+width: 23%;
+}
+
+.filter {
+    filter: brightness(0.8) contrast(1.2) saturate(1.5);
+    float:left;
+    margin-right: 25px;
+}
+
+.text-justify {
+    text-align: justify;
+  }
+  
