@@ -1,10 +1,16 @@
 <div class="container mt-5">
-    <div class="card card-hover card-color" style="width: 18rem;">
-        <img src="./../../../assets/prueba.JPG" class="card-img-top" alt="Project Image">
-        <div class="card-body">
-            <h5 class="card-title">{{project?.name}}</h5>
-            <p class="card-text">Brief description of the project goes here.</p>
-            <a href="#" class="btn btn-primary">View Repository</a>
+    <div class="card bg-light border-0 rounded-3 shadow " >
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./../../../assets/prueba.JPG" class="img-fluid rounded-start" alt="Project Image">
+            </div>
+            <div class="col-md-8 card-color">
+                <div class="card-body">
+                    <h5 class="h5 card-title">{{ project?.name }}</h5>
+                    <p class="card-text">Brief description of the project goes here.</p>
+                    <a href="#" class="btn btn-outline-primary">View Repository</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
